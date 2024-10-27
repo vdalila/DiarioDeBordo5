@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; 
+    color: #333; 
+    margin: 0;
+    padding: 0;
+    background-image: url('.jpg'); 
+    background-size: cover; /* ajusta para cobrir o fundo */
+}
+
+header {
+    background-color: rgba(0, 119, 190, 0.8); /* azul marinho opaco */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li img {
+    border-radius: 50%; /* icon circular */
+    width: 50px;
+    height: 50px;
+}
+
+section {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* background meio transparente */
+    border-radius: 8px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 119, 190, 0.8); /* azul marinho opaco */
+    color: white;
+}
+
+.media-container {
+    margin-top: 20px;
+}
+
+.photo-slider img,
+.video-slider video {
+    width: 100%; /* largura tota da seção */
+    border-radius: 8px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.buttons button {
+    color: white; /* Cor do texto dos botões */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.buttons button:hover {
+    opacity: 0.8; /* Efeito de hover */
+}
+
+/* cor pra cada tópico */
+#integrante1 h2,
+#integrante1 h3 {
+    color: #ff7f50; /* salmão pra nalaura */
+}
+
+#integrante2 h2,
+#integrante2 h3 {
+    color: #ffcc00; /* amarelo pra jamile */
+}
+
+#integrante3 h2,
+#integrante3 h3 {
+    color: #4cf080; /* verde pra hellen */
+}
+
+#integrante4 h2,
+#integrante4 h3 {
+    color: #00bfff; /* azul pra mim */
+}
+
+/* parágrafos pretos */
+section p {
+    color: #000; /* cor preta dos parágrafos */
+}
+
+/* pra seção do gif */
+#gif-destaque {
+    text-align: center;
+    margin: 30px 0; /* espaçamento ao redor da section */
+}
+
+.gif-destaque {
+    max-width: 100%; /* ajusta o tamanho da tela */
+    height: auto; /* mantem a proporção */
+    border-radius: 10px; /* suaviza as bordas */
+}
